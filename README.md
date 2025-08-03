@@ -14,13 +14,13 @@ This project uses biomedical voice measurements to detect Parkinson’s disease 
 
 ## 🔍 Project Summary
 
-| Stage         | Details                                    |
-|---------------|--------------------------------------------|
-| Model Type    | Artificial Neural Network (ANN)            |
-| Framework     | TensorFlow + Keras                         |
-| Accuracy (Train) | **88.46%**                              |
-| Accuracy (Test)  | **87.17%**                              |
-| Evaluation    | Accuracy, Loss, Confusion Matrix           |
+| Stage            | Details                          |
+|------------------|----------------------------------|
+| Model Type       | Artificial Neural Network (ANN)  |
+| Framework        | TensorFlow + Keras               |
+| Accuracy (Train) | **88.46%**                       |
+| Accuracy (Test)  | **87.17%**                       |
+| Evaluation       | Accuracy, Loss, Confusion Matrix |
 
 ---
 
@@ -42,4 +42,23 @@ This project uses biomedical voice measurements to detect Parkinson’s disease 
 - `scikit-learn`
 - `tensorflow` / `keras`
 
-Install all dependencies:
+To install all dependencies:
+
+```bash
+pip install -r requirements.txt
+
+📂 Folder Structure
+parkinsons-detection-ml/
+├── model/
+│   └── parkinsons_model.py
+├── data/
+│   └── parkinsons.csv
+├── plots/
+│   ├── accuracy.png
+│   └── loss.png
+├── requirements.txt
+└── README.md
+
+✍️ Author
+Dhawal Sarode
+B.Tech CSE, Amity University (2021–2025)
